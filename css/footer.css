@@ -1,0 +1,129 @@
+.footer {
+    background-color: #B9F3FC;;
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer-container {
+    position: absolute;
+    height: 180px;
+    width: 98.5%;
+    margin: 10px;
+    background-color: #93C6E7;
+}
+
+.footer-wrapper {
+    background-color: #b9f3fc6c;
+    border: 3px solid #FFEEF4;
+    margin: 5px;
+    height: 165px;
+    position: relative;
+}
+
+.logo-footer {
+    position: absolute;
+    top: -8px;
+    height: 80px;
+    width: 80px;
+    z-index: 20;
+}
+
+.footer-description {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: white;
+    width: 600px;
+    text-align: justify;
+    background-color: #93C6E7;
+    padding: 10px;
+    border: 3px solid #FFEEF4;
+    border-radius: 5px;
+    padding-right: 40px;
+
+}
+
+.second-container-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    width: 700px;
+    height: 80px;
+    border: 3px solid #FFEEF4;
+    background-color: #93C6E7;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    
+}
+
+.footer-title-description {
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.footer-second-description {
+    color: white;
+    margin-top: -10px;
+    margin-left: 20px;
+}
+
+.bunny-container {
+    position: absolute;
+    right: 10px;
+    top: -10px;
+}
+
+.bunny-footer {
+    margin-top: 8px;
+    height: 100px;
+    width: 100px;
+}
+
+.bunny-footer-wrapper {
+    position: relative;
+}
+
+.bunny-footer-tooltip {
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    background-color: #ffa0c1;
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+.bunny-footer-tooltip:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+    left: 43%;
+    background-color: #ffa0c1;
+    transform: rotate(45deg);
+}
+
+.rights {
+    margin-top: 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 46%;
+    display: flex;
+    color: white;
+}
+
+.copy-right {
+    margin-top: 14px;
+    margin-right: 5px;
+    height: 17px;
+    color: white;
+}
+
+.rights-name {
+    font-size: 15px;
+}

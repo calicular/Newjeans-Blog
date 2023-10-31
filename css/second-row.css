@@ -1,0 +1,316 @@
+.second-container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+
+.first-con {
+    background-color: #B9F3FC;
+    height: 500px;
+    width: 75%;
+    margin-right: 15px;
+    position: relative;
+}
+
+/* first-con about-container */
+
+.about-container {
+    position: absolute;
+    background-color: #93C6E7;
+    margin: 10px;
+    height: 480px;
+    width: 98%;
+    color: white;
+}
+
+.about-description-container {
+    margin: 8px;
+    border: 3px solid #FFEEF4;
+    backdrop-filter: blur(20px);
+    padding-bottom: 123px;
+    background-color: #b9f3fc6c;
+}
+
+.about-title {
+    margin: 50px 0 30px 45px;
+}
+
+.wrapper-description {
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+.about-icon {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+    color: #f28cb0;
+}
+
+.about-description {
+    margin-left: 40px;
+    width: 900px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.bunny-contain{
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}
+
+.bunny {
+    height: 150px;
+    width: 150px;
+
+}
+
+.bunny-wrapper {
+    position: relative;
+}
+
+.bunny-tooltip{
+    position: absolute;
+    top: 30px;
+    left: 31%;
+    display: inline-block;
+    background-color: #93C6E7;
+    border-radius: 18px;
+    padding: 6px;
+    color:white;
+    z-index: 2;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.bunny-tooltip:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+    left: 43%;
+    background-color: #93C6E7;
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.bunny-wrapper:hover .bunny-tooltip{
+    top: 10px;
+    opacity: 1;
+}
+
+.bunny-tooltip:before {
+    opacity: 1;
+}
+
+
+
+.second-con {
+    height: 500px;
+    width: 25%;
+}
+
+
+/* First Child Container */
+
+.first-child {
+    background-color: #B9F3FC;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.contain-song {
+    position: absolute;
+    margin: 10px;
+    background-color: #93C6E7;
+}
+
+.banner {
+    margin-top: -15px;
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.song-container {
+    padding: 10px 85px 18px 10px;
+    margin-top: -18px;
+    margin-left: 70px;
+    display: grid;
+    grid-template-columns: 80px 80px;
+    column-gap: 20px;
+    row-gap: 15px;
+    line-height: 5px;
+    
+}
+
+.song {
+    margin-top: -7px;
+    border: green solid 1px;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-bottom: -5px;
+    background-color: #A0C49D;
+    box-shadow: 0px 3px 4px green;
+    transition: all 300ms ease-in-out;
+}
+
+.song:hover {
+    box-shadow: 0px 8px 28px green;
+    width: 75px;
+}
+
+.album {
+    height: 70px;
+}
+
+.title {
+    color: white;
+    font-size: 10px;
+    margin-left: 7px;
+}
+
+.title-sec {
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Second Child Container */
+
+.second-child {
+    position: relative;
+    background-color: #B9F3FC;
+    height: 185px;
+    width: 100%;
+}
+
+.second-child-container {
+    position: absolute;
+    margin: 10px;
+    padding: 15px;
+    width: 86%;
+    background-color: #93C6E7;
+}
+
+.wrapper {
+    display: inline-flex;
+    padding-bottom: 20px;
+}
+
+.wrapper .icon span {
+    position: relative;
+    z-index: 2;
+    height: 40px;
+    width: 40px;
+    display: block;
+    background: #fff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .icon span {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.wrapper .icon .tooltip {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 25px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -40px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.wrapper .icon .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    bottom: -5px;
+    left: 43%;
+    background-color: #fff;
+    transform: rotate(45deg);
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+}
+.wrapper .icon {
+    position: relative;
+    margin: 0 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 2;
+    cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover i,
+.wrapper .icon:hover .tooltip{
+    color: #fff;
+}
+
+.wrapper .facebook:hover span,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background-color: #00A9FF;
+}
+
+.wrapper .instagram:hover span,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background-color: #FDCEDF;
+}
+
+.wrapper .threads:hover span,
+.wrapper .threads:hover .tooltip,
+.wrapper .threads:hover .tooltip::before {
+    background-color: #0F0F0F;
+}
+
+.wrapper .twitter:hover span,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background-color: #A0E9FF;
+}
+
+
+.socials {
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}

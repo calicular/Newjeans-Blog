@@ -1,0 +1,14 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+body{
+    margin-top: 80px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+}

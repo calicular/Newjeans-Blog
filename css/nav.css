@@ -1,0 +1,37 @@
+.nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    background-color: #78c8fd;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 6px solid #B9F3FC;
+
+
+}
+
+.logo {
+    flex: 1;
+    color: #fdf4f7;
+    font-size: 25px;
+    margin-top: -20px;
+    margin-left: 25px;
+}
+
+.nav-links {
+    width: 350px;
+    display: inline-flex;
+    
+}
+
+
+.links-nav {
+    margin: auto 10px;
+    color: #fcf2f5;
+}

@@ -1,0 +1,31 @@
+.header {
+    background-color: #B9F3FC;
+    background-size: 100px;
+    height: 330px;
+    width: 100%;
+    position: relative;
+}
+
+.bg-logo {
+    position: absolute;
+    background-color: lightblue;
+    height: 260px;
+    width: 95.5%;
+    margin: 30px;
+    background-image: url(../img/newjeans-bg.png);
+    background-size: 80px;
+    border: 5px solid #93C6E7;
+    
+}
+
+.newjeans-wrapper {
+    position: relative;
+}
+
+.logo-newjeans {
+    position: absolute;
+    top: -170px;
+    right: 320px;
+    height: 600px;
+    width: 800px;
+}
